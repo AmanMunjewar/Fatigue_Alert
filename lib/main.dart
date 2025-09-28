@@ -29,7 +29,7 @@ class TeacherApp extends StatelessWidget {
           titleLarge: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic, color: Color(0xFF00796B)),
           bodyMedium: TextStyle(fontSize: 14.0, fontFamily: 'Hind', color: Colors.black87),
         ),
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           elevation: 4.0,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(15.0),
