@@ -44,29 +44,13 @@ class _InstitutionDashboardScreenState extends State<InstitutionDashboardScreen>
       ),
       body: TabBarView(
         controller: _tabController,
-        children: [
-          _buildOverviewTab(),
-          _buildWorkloadTab(),
-          _buildAlertsTab(),
-          _buildReportsTab(),
+        children: const [
+          OverviewTab(),
+          WorkloadTab(),
+          AlertsTab(),
+          ReportsTab(),
         ],
       ),
     );
-  }
-
-  Widget _buildOverviewTab() {
-    return const OverviewTab();
-  }
-
-  Widget _buildWorkloadTab() {
-    return const WorkloadTab();
-  }
-
-  Widget _buildAlertsTab() {
-    return const AlertsTab();
-  }
-
-  Widget _buildReportsTab() {
-    return const ReportsTab();
   }
 }
