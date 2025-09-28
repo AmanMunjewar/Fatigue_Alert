@@ -45,7 +45,7 @@ class _PocketModeScreenState extends State<PocketModeScreen> {
     if (_accelerometerEvent == null) return;
 
     // Simple posture detection logic (example)
-    // Leaning forward: high Z-axis value
+    // Leaning forward: high Z-axis values
     if (_accelerometerEvent!.z > 8.0) {
       _startPostureTimer('You’ve been leaning forward for 10 mins. Sit upright.');
     } else {

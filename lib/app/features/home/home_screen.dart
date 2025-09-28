@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
       SuggestionPopup.show(
         context,
         message: message,
-        icon: icon!,
+        icon: icon ?? Icons.help,
         color: color ?? Colors.blue,
       );
     }

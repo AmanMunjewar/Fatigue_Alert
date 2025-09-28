@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fl_chart/fl_chart.dart';
 import 'widgets/overview_tab.dart';
 import 'widgets/workload_tab.dart';
 import 'widgets/alerts_tab.dart';
